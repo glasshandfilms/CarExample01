@@ -191,8 +191,8 @@ Material:
     - _Smoothness: 0.807
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
-    - _SpecularAAScreenSpaceVariance: 0.1
-    - _SpecularAAThreshold: 0.383
+    - _SpecularAAScreenSpaceVariance: 0.139
+    - _SpecularAAThreshold: 0.026
     - _SrcBlend: 1
     - _StencilRef: 2
     - _StencilRefMV: 128

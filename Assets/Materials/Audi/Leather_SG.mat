@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Leather_SG
+  m_Shader: {fileID: 4800000, guid: e9460b15bd77bd64ea920ce3dd58f8a4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_1D538B9B:
+        m_Texture: {fileID: 2800000, guid: 8be287fcd18b70846972d2873bb9ac63, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_9159A12B:
+        m_Texture: {fileID: 2800000, guid: 2ff007a383d25224d8ae98aa0da03fd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B0F5817:
+        m_Texture: {fileID: 2800000, guid: 6e2a3948a81ac2f4190a00ada90e497b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_91582F86: 0.2
+    - Vector1_CC9D5E89: 1.15
+    - Vector1_E947F98: 0.37
+    m_Colors:
+    - Color_9AE10DE2: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 0}
+    - Vector2_4FD7C0ED: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_A9D991C8: {r: 0, g: 1, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

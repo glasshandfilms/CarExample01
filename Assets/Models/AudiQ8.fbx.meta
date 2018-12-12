@@ -161,6 +161,10 @@ ModelImporter:
     100310: tyre_001
     100312: tyre_002
     100314: tyre_003
+    100316: Subdivision_Surface
+    100318: leather_seats_Low
+    100320: carpaint_bumper_top_high
+    100322: carpaint_bumper_top_Low
     400000: //RootNode
     400002: black_bottom
     400004: black_front
@@ -319,6 +323,10 @@ ModelImporter:
     400310: tyre_001
     400312: tyre_002
     400314: tyre_003
+    400316: Subdivision_Surface
+    400318: leather_seats_Low
+    400320: carpaint_bumper_top_high
+    400322: carpaint_bumper_top_Low
     2100000: plasticblack
     2100002: glass_lens
     2100004: reflect
@@ -505,6 +513,9 @@ ModelImporter:
     2300308: tyre_001
     2300310: tyre_002
     2300312: tyre_003
+    2300314: leather_seats_Low
+    2300316: carpaint_bumper_top_high
+    2300318: carpaint_bumper_top_Low
     3300000: black_bottom
     3300002: black_front
     3300004: black_window_f
@@ -662,6 +673,9 @@ ModelImporter:
     3300308: tyre_001
     3300310: tyre_002
     3300312: tyre_003
+    3300314: leather_seats_Low
+    3300316: carpaint_bumper_top_high
+    3300318: carpaint_bumper_top_Low
     4300000: plasticblack_numberPlate_r
     4300002: glassLens_revCam
     4300004: reflect_taillight_bottom
@@ -819,6 +833,10 @@ ModelImporter:
     4300308: rimDark_001
     4300310: plastic_vavle_001
     4300312: metalDark_Caliper_001
+    4300314: leather_seats_Low
+    4300316: carpaint_bumper_top_Low
+    4300318: carpaint_bumper_top_high
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -914,7 +932,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: leather
-    second: {fileID: 2100000, guid: 97b3d629aa4145c43a72a11adeffef66, type: 2}
+    second: {fileID: 2100000, guid: b1260485f94c04b489f6046b0fa535f7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -1020,12 +1038,12 @@ ModelImporter:
     hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
+    normalSmoothingSource: 2
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
