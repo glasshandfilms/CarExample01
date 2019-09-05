@@ -49,7 +49,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: e67714b9e73dfa4429727a7b220ce9f0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Triplanar_16589DFD_Texture_1:
+        m_Texture: {fileID: 2800000, guid: e67714b9e73dfa4429727a7b220ce9f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Triplanar_336DADED_Texture:
+        m_Texture: {fileID: 2800000, guid: 1fa27bf22cf45c4408443d9b7f76082d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_336DADED_Texture_1:
         m_Texture: {fileID: 2800000, guid: 1fa27bf22cf45c4408443d9b7f76082d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -57,11 +65,23 @@ Material:
         m_Texture: {fileID: 2800000, guid: 308a268529cd2724a914769fa9c2cad1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Triplanar_70877EB1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 308a268529cd2724a914769fa9c2cad1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Triplanar_EDF17A53_Texture:
         m_Texture: {fileID: 2800000, guid: 8421a291cf813c04a91722f90e3b4c56, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Triplanar_EDF17A53_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8421a291cf813c04a91722f90e3b4c56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Triplanar_EEA12EF_Texture:
+        m_Texture: {fileID: 2800000, guid: d56797044247a7b4d8b92599766c0ae3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_EEA12EF_Texture_1:
         m_Texture: {fileID: 2800000, guid: d56797044247a7b4d8b92599766c0ae3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -73,9 +93,43 @@ Material:
     - Vector1_AC857057: 1.2
     - Vector1_B85EFF26: 0.97
     - Vector1_EFF56F6: 2.33
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _BlendMode: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _ReceivesSSR: 1
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 64
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 128
+    - _StencilWriteMask: 3
+    - _StencilWriteMaskDepth: 32
+    - _StencilWriteMaskDistortionVec: 64
+    - _StencilWriteMaskGBuffer: 3
+    - _StencilWriteMaskMV: 128
+    - _SurfaceType: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 4
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 0
     m_Colors:
     - Color_BCFF0C2F: {r: 0.9716981, g: 0.38129932, b: 0.22459061, a: 1}
     - Color_FF240231: {r: 0.1509434, g: 0.1509434, b: 0.1509434, a: 1}
     - Vector2_A5BC0C51: {r: 0, g: 1, b: 0, a: 0}
     - Vector2_DCADB1A9: {r: 0, g: 1, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
