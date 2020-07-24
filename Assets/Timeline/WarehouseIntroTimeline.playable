@@ -228,6 +228,7 @@ MonoBehaviour:
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 30
+    m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: -5131123806338625949}
 --- !u!74 &74441253040761666
@@ -860,10 +861,10 @@ MonoBehaviour:
     m_FileName: image_<Frame>
   outputFormat: 1
   captureAlpha: 0
+  captureHDR: 0
   m_ImageInputSelector:
     m_Selected: gameViewInputSettings
     gameViewInputSettings:
-      allowTransparency: 0
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
@@ -875,7 +876,6 @@ MonoBehaviour:
           m_ImageAspect: 1
       flipFinalOutput: 0
     cameraInputSettings:
-      allowTransparency: 0
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
@@ -890,7 +890,6 @@ MonoBehaviour:
       flipFinalOutput: 0
       captureUI: 0
     camera360InputSettings:
-      allowTransparency: 0
       source: 2
       cameraTag: 
       flipFinalOutput: 0
@@ -900,11 +899,9 @@ MonoBehaviour:
       m_OutputWidth: 1024
       m_OutputHeight: 2048
     renderTextureInputSettings:
-      allowTransparency: 0
       renderTexture: {fileID: 0}
       flipFinalOutput: 0
     renderTextureSamplerSettings:
-      allowTransparency: 0
       source: 1
       m_RenderWidth: 1280
       m_RenderHeight: 720
@@ -932,6 +929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
+  DisplayName: 
   VirtualCamera:
     exposedName: ae2105cd32c8dec4da4811612914222f
     defaultValue: {fileID: 0}
@@ -988,6 +986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
+  DisplayName: 
   VirtualCamera:
     exposedName: f61e3c641e3633c4b81ac8ba01063ac4
     defaultValue: {fileID: 0}
@@ -1384,6 +1383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
+  DisplayName: 
   VirtualCamera:
     exposedName: b8de9d935d45bdc49b48f0bff2e03545
     defaultValue: {fileID: 0}
@@ -1504,6 +1504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90fb794a295e73545af71bcdb7375791, type: 3}
   m_Name: CinemachineShot
   m_EditorClassIdentifier: 
+  DisplayName: 
   VirtualCamera:
     exposedName: 12412ce0ce700ea42bc2fc3a620737a7
     defaultValue: {fileID: 0}
